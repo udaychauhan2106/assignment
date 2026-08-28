@@ -130,7 +130,7 @@ Run the visible and custom behavior cases with:
 uv run python evaluation/run_eval.py
 ```
 
-The latest recorded result was `15/20` evaluated cases passing, `5` failing, and `0 ERROR/BLOCKED` (`75.0%`). Category results were: retrieval `2/2`, multi-turn `2/2`, privacy `1/1`, tool use `6/7`, groundedness `3/4`, prompt security `1/2`, and abstention `0/2`. The evaluator uses deterministic checks; some remaining cases reflect Gemini generation variability or intentionally strict wording checks.
+The latest recorded result was `14/20` evaluated cases passing, `6` failing, and `0 ERROR/BLOCKED` (`70.0%`). Category results were: retrieval `2/2`, multi-turn `2/2`, privacy `1/1`, tool use `6/7`, groundedness `2/4`, prompt security `1/2`, and abstention `0/2`. The evaluator uses deterministic checks; some remaining cases reflect Gemini generation variability or intentionally strict wording checks.
 
 ## Bug Diary
 
